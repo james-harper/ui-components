@@ -8,7 +8,44 @@
 - Full width buttons / Fixed width buttons
 - Button with loading image
 - Button groups
+- Flat / raised
 
 ### General
 - Improve presentation of example. Include example code.
 - Add more components!
+
+--------------------------------------
+### Components to add
+- Accordion
+- Alerts
+- Audio player
+- Breadcrumbs
+- Card
+- Carousel
+- Charts
+- Checkbox/radio buttons
+- Clock
+- Countdown to event
+- Dropdown link
+- Emoji
+- Filterable (table?)
+- Folder tree view
+- Form errors
+- Grid (of images/cards)
+- Image (with placeholder while loading)
+- Input
+- List group
+- Log in
+- Modal
+- Nav bar
+- Pagination
+- Popover
+- Progress bar
+- Searchbar
+- Selectbox
+  - Multiselect
+- Tabs
+- Text area
+- Toast notification
+- Tweet
+- Video
