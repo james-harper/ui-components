@@ -1,6 +1,5 @@
 ### Button
 - Add some tests
-- Darken on hover
 - Alt text
 - Toggle button
 - Add a disabled prop
@@ -25,6 +24,7 @@
 - Breadcrumbs
 - Calendar
 - Card
+  - https://tachyons.io/components/cards/news-card/index.html
 - Carousel
 - Charts
 - Checkbox/radio buttons
@@ -38,19 +38,32 @@
 - Folder tree view
 - Form errors
 - Grid (of images/cards)
+  - https://tachyons.io/components/collections/movies/index.html
+  - https://tachyons.io/components/collections/albums/index.html
 - Guitar tab
 - Headings
 - Icons (fontawesome?)
 - Image (with placeholder while loading)
 - Input
+  - Password (https://tachyons.io/components/forms/password/index.html)
 - List group
+  - https://tachyons.io/components/lists/contact-phone/index.html
+  - https://tachyons.io/components/lists/border-spaced/index.html
+  - https://tachyons.io/components/lists/follower-notifications-rounded-square-avatar/index.html
+  - https://tachyons.io/components/lists/follower-notifications/index.html
 - Log in
+  - https://tachyons.io/components/forms/sign-in/index.html
 - Midi
 - Modal
 - Nav bar
+  - https://tachyons.io/components/nav/fixed-semi-transparent/index.html
+  - https://tachyons.io/components/nav/minimal-sign-up/index.html
+- Newsletter subscription
+  - https://tachyons.io/components/forms/newsletter-subscription/index.html
 - Numeric input
   - Keypad/incremental
 - Pagination
+- Paypal
 - Popover
 - Progress bar
 - Searchbar
