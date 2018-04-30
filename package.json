@@ -2,6 +2,7 @@
   "name": "ui-components",
   "version": "0.1.0",
   "private": true,
+  "main": "src/components/index.js",
   "dependencies": {
     "date-fns": "^1.29.0",
     "prop-types": "^15.6.1",
