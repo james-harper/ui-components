@@ -20,6 +20,7 @@
 - Alerts
 - Audio player
 - Breadcrumbs
+- Calendar
 - Card
 - Carousel
 - Charts
@@ -28,14 +29,17 @@
 - Countdown to event
 - Dropdown link
 - Emoji
+- Emoji picker (like Slack)
 - Filterable (table?)
 - Folder tree view
 - Form errors
 - Grid (of images/cards)
+- Guitar tab
 - Image (with placeholder while loading)
 - Input
 - List group
 - Log in
+- Midi
 - Modal
 - Nav bar
 - Pagination
@@ -44,8 +48,10 @@
 - Searchbar
 - Selectbox
   - Multiselect
+- Social links
 - Tabs
 - Text area
+- Themes (https://colorgen.netlify.com/, https://clrs.cc/)
 - Toast notification
 - Tweet
 - Video
