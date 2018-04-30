@@ -18,10 +18,9 @@ const Button = ({ type, size, onClick, children }) => {
     'br3',
     'b',
     'tc',
-    `${colours.background} ${colours.text} ${colours.border}`,
+    `${colours.background} ${colours.text} ${colours.border} ${colours.hover}`,
     sizes[size],
     'pointer',
-    'dim',
   ];
 
   return (
