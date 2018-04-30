@@ -21,6 +21,7 @@ const Button = ({ type, size, onClick, children }) => {
     `${colours.background} ${colours.text} ${colours.border}`,
     sizes[size],
     'pointer',
+    'dim',
   ];
 
   return (
