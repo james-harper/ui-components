@@ -12,13 +12,16 @@
 
 ### General
 - Improve presentation of example. Include example code.
+  - https://github.com/nextbigsoundinc/stylemark ?
 - Add more components!
+- Curated list of accepted fonts
 
 --------------------------------------
 ### Components to add
 - Accordion
 - Alerts
 - Audio player
+- Avatar
 - Breadcrumbs
 - Calendar
 - Card
@@ -27,6 +30,7 @@
 - Checkbox/radio buttons
 - Clock
 - Countdown to event
+- Currency converter
 - Dropdown link
 - Emoji
 - Emoji picker (like Slack)
@@ -35,6 +39,8 @@
 - Form errors
 - Grid (of images/cards)
 - Guitar tab
+- Headings
+- Icons (fontawesome?)
 - Image (with placeholder while loading)
 - Input
 - List group
@@ -42,16 +48,21 @@
 - Midi
 - Modal
 - Nav bar
+- Numeric input
+  - Keypad/incremental
 - Pagination
 - Popover
 - Progress bar
 - Searchbar
 - Selectbox
   - Multiselect
+  - Common ones such as country
+- Sliders
 - Social links
 - Tabs
 - Text area
 - Themes (https://colorgen.netlify.com/, https://clrs.cc/)
+- Thumbnail gallery
 - Toast notification
 - Tweet
 - Video
