@@ -4,9 +4,9 @@ import Theme from '../../utils/theme';
 
 const types = Object.keys(Theme).map(type => type);
 const sizes = {
-  small: 'f6 ph3 pv1',
-  medium: 'f5 ph4 pv2',
-  large: 'f4 ph5 pv3'
+  small: 'w3 f6 ph1 pv1',
+  medium: 'w4 f5 ph4 pv2',
+  large: 'w5 f3 ph5 pv3'
 };
 
 const Button = ({ type, size, onClick, children }) => {

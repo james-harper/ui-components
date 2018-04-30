@@ -2,7 +2,7 @@ export default {
   success: {
     background: 'bg-green',
     text: 'white',
-    border: 'b--white',
+    border: 'b--near-white',
     hover: 'hover-bg-dark-green'
   },
   danger: {

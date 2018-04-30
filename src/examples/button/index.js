@@ -28,8 +28,8 @@ class ButtonExample extends Component {
   render() {
     const MyButton = ({ type }) => (
       <div className="ma1">
-        <Button type={type} onClick={() => this.onClick(type)}>{type}</Button>
-        <span>Clicked: {this.state[type]}</span>
+        <Button size="medium" type={type} onClick={() => this.onClick(type)}>{type}</Button>
+        <span className="pl2">Clicked: {this.state[type]}</span>
       </div>
     );
     return (
