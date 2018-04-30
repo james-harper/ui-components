@@ -5,13 +5,13 @@ import distanceInWordsToNow from 'date-fns/distance_in_words_to_now';
 class HumanFriendlyTime extends Component {
   static getDerivedStateFromProps(nextProps, prevState) {
     if (nextProps.time !== prevState.time) {
-      return this.setState(HumanFriendlyTime.calucateDifference(nextProps.time));
+      return this.setState(HumanFriendlyTime.calculateDifference(nextProps.time));
     }
 
     return prevState;
   }
 
-  static calucateDifference(time) {
+  static calculateDifference(time) {
     const isPast = time < new Date();
     const suffix = (isPast) ? 'ago' : 'from now';
     const distanceFromNow = `${distanceInWordsToNow(time)} ${suffix}`;
@@ -24,12 +24,12 @@ class HumanFriendlyTime extends Component {
   constructor(props) {
     super(props);
 
-    this.state = HumanFriendlyTime.calucateDifference(this.props.time);
+    this.state = HumanFriendlyTime.calculateDifference(this.props.time);
   }
 
   componentDidMount() {
     this.interval = setInterval(() => {
-      this.setState(HumanFriendlyTime.calucateDifference(this.props.time));
+      this.setState(HumanFriendlyTime.calculateDifference(this.props.time));
     }, 1000);
   }
 
